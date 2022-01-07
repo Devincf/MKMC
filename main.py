@@ -85,6 +85,20 @@ def getKeyFromStr(key):
         return Key.enter
     elif key == "Key.shift":
         return Key.shift
+    elif key == "Key.backspace":
+        return Key.backspace
+    elif key == "Key.ctrl_l":
+        return Key.ctrl_l
+    elif key == "Key.alt_l":
+        return Key.alt_l
+    elif key == "Key.tab":
+        return Key.tab
+    elif key == "Key.ctrl_r":
+        return Key.ctrl_r
+    elif key == "Key.alt_r":
+        return Key.alt_r	
+    elif key == "Key.space":
+        return ' '
     else:
         return key.replace("'", "")
 
